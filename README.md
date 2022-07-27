@@ -73,7 +73,7 @@ TELEGRAM_LOGGER_CHAT_ID=<your-bot-chat-id>
     // ...
     'telegram' => [
         'driver' => 'custom',
-        'via' => YemeniOpenSource\Services\TelegramService::class,
+        'via' => YemeniOpenSource\TelegramLog\Services\TelegramService::class,
         'level' => 'debug',
     ],
     // ...
